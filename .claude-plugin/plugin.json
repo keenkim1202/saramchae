@@ -1,0 +1,16 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-plugin-manifest.json",
+  "name": "saramchae",
+  "displayName": "saramchae",
+  "description": "사람체 — make a document read like a person wrote it. Ships the Korean and non-Korean skills together, each with its own scanner.",
+  "version": "1.0.0",
+  "author": {
+    "name": "KEEN",
+    "url": "https://github.com/keenkim1202"
+  },
+  "homepage": "https://github.com/keenkim1202/saramchae",
+  "repository": "https://github.com/keenkim1202/saramchae",
+  "license": "MIT",
+  "keywords": ["writing", "korean", "readability", "editing", "technical-writing"],
+  "skills": ["./saramchae", "./saramchae-ko"]
+}

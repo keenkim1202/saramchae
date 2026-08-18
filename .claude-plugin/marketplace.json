@@ -1,0 +1,25 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
+  "name": "saramchae",
+  "owner": {
+    "name": "KEEN",
+    "url": "https://github.com/keenkim1202"
+  },
+  "description": "사람체 — documents that read like a person wrote them",
+  "plugins": [
+    {
+      "name": "saramchae",
+      "source": "./",
+      "description": "Strips the AI tells and the translationese out of a document, and fixes its shape. saramchae-ko covers Korean, saramchae covers everything else. Each ships a scanner that measures before a word is rewritten.",
+      "version": "1.0.0",
+      "author": {
+        "name": "KEEN",
+        "url": "https://github.com/keenkim1202"
+      },
+      "license": "MIT",
+      "category": "writing",
+      "tags": ["writing", "korean", "readability", "editing", "technical-writing"],
+      "skills": ["./saramchae", "./saramchae-ko"]
+    }
+  ]
+}
